@@ -1,88 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>SUCCESSFULLY HOSTED SAMPLE WEBSITE</h1> 
 
-<!doctype html>
-<html>
-	<head>
-		<title>Game of Thrones</title>
+    <nav>
+      <ul>
+        <li><a href="#Events">Events</a></li>
+        <li><a href="#registration">Registration</a></li>
+        <!-- Add more menu items as needed -->
+      </ul>
+    </nav>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Button</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+  
+      .login-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+      }
+  
+      .login-btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+      <button class="login-btn">Login</button> 
+  </div>
+</header>
 
-		<meta charset="utf-8" />
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		  
-	</head>
+<section id="hero">
+  <div class="container">
+    <h2></h2>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button>Search</button>
+    </div>
+  </div>
+</section>
 
-	<body>
-		<center><h1>Game of Thrones</h1></center>
-		<hr>
-		<div id="topOfPage">
-			<center><img src="images/GOT.jpg" align="center"></img></center>
-			<p>Game of Thrones is an Indian fantasy drama television series created by David Benioff and D. B. Weiss. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is 'A Game of Thrones'!!!</p>
+<section id="Events">
+  <div class="container">
+    <h2>Upcoming Events</h2>
+    <style>
+      h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 10px;
+      }
+    </style>
+    <!-- Display events dynamically using JavaScript or server-side scripting -->
+    <div class="event-card">
+      <h3>DevOps Event</h3>
+      <p>Join us for an insightful journey into the world of DevOps, where we explore the convergence of development and operations practices. This groundbreaking event will showcase the latest trends, strategies, and tools reshaping the landscape of software development and IT operations.</p>
+    </div>
+    <div class="event-card">
+      <h3>WebDevelopment Event</h3>
+      <p>Join us for an insightful journey into the world of DevOps, where we explore the convergence of development and operations practices. This groundbreaking event will showcase the latest trends, strategies, and tools reshaping the landscape of software development and IT operations.</p>
+    </div>
+    <div class="event-card">
+      <h3>Python challenge</h3>
+      <p>Join us for an insightful journey into the world of DevOps, where we explore the convergence of development and operations practices. This groundbreaking event will showcase the latest trends, strategies, and tools reshaping the landscape of software development and IT operations.</p>
+    </div>
+    <div class="event-card">
+      <h3>Java programming </h3>
+      <p>Join us for an insightful journey into the world of DevOps, where we explore the convergence of development and operations practices. This groundbreaking event will showcase the latest trends, strategies, and tools reshaping the landscape of software development and IT operations.</p>
+    </div>
+    <!-- Add more event cards as needed -->
+  </div>
+</section>
 
-			<p><h3>General Plot:</h3> A story of greed, lust, thirst for power, ruthlessness, barbarity - GOT is a story of seven kingdoms vying and sparring over absolute power and control to the Iron Throne.</p>
-			<iframe align = "right" width="400" height="200" src="https://www.youtube.com/embed/522l0YE9hRQ" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<hr>
-		<p><h3>Warring kingdoms:</h3>
-			<ul>
-				<li>Kingdom of the North!</li>
-				<li>Kingdom of the Mountain and the Vale!</li>
-				<li>Kingdom of the Isles and Rivers</li>
-				<li>Kingdom of the Rock</li>
-				<li>Kingdom of the Stormlands</li>
-				<li>Kingdom of the Reach</li>
-				<li>Principality of Dorne</li>
-			</ul>
-		</p>
-		<hr>
-		<center>
-			<ins><h3>Kingdoms with their Lords or rulers and their symbols</h3></ins>
-			<table border="1">
-				<thead>
-					<tr>
-						<th>Kingdom</th>
-						<th>Lords</th>
-						<th>Symbol</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>The North</td>
-						<td>Stark of Winterfell</td>
-						<td align="center"><a href="http://gameofthrones.wikia.com/wiki/Winterfell"><img src="images/HouseStark.png" height="100" width="100"></a></td>
-					</tr>
-					<tr>
-						<td>Kingdom of the Isles and Rivers</td>
-						<td>Harren Hoare</td>
-						<td align="center"><a href="http://gameofthrones.wikia.com/wiki/Harren_Hoare"><img src="images/Harren_Hoare.png" height="100" width="100"></a></td>
-					</tr>
-					<tr>
-						<td>The Vale</td>
-						<td>Arryn of the Eyrie</td>
-						<td align="center"><a href="http://gameofthrones.wikia.com/wiki/House_Arryn"><img src="images/Arryn.png" height="100" width="100"></a></td>
-					</tr>
-					<tr>
-						<td>The Westernlands</td>
-						<td>Lannister of Casterly Rock</td>
-						<td align="center"><a href="http://gameofthrones.wikia.com/wiki/House_Lannister"><img src="images/Lannister.png" height="100" width="100"></a></td>
-					</tr>
-					<tr>
-						<td>The Stormlands</td>
-						<td>Baratheon of Storm's End</td>
-						<td align="center"><a href="http://gameofthrones.wikia.com/wiki/House_Baratheon"><img src="images/Baratheon.png" height="100" width="100"></a></td>
-					</tr>
-					<tr>
-						<td>The Riverlands</td>
-						<td>Tully of Riverrun</td>
-						<td align="center"><a href="http://gameofthrones.wikia.com/wiki/House_Gardener"><img src="images/Gardner.png" height="100" width="100"></a></td>
-					</tr>
-					<tr>
-						<td>Dorne</td>
-						<td>Martell of Sunspear</td>
-						<td align="center"><a href="http://gameofthrones.wikia.com/wiki/House_Martell"><img src="images/Martell.png" height="100" width="100"></a></td>
-					</tr>
-				</tbody>
-			</table>
-		</center>
-		<p>Dedicated to all <strong>Game of Thrones</strong><sup>&reg;</sup> fans</p>
-		<p><a href="#topOfPage">top</a></p>
-	</body>
+<section id="registration">
+  <div class="container">
+    <h2>Registration</h2>
+    <!-- Registration form goes here -->
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Vyyoma DevOps Website project. All rights reserved.</p>
+  </div>
+</footer>
+</body>
 </html>
